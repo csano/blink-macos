@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		260513031F480E3C004C6BF2 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260513011F480E3C004C6BF2 /* LoginView.swift */; };
+		260513041F480E3C004C6BF2 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260513021F480E3C004C6BF2 /* MainView.swift */; };
+		26EC334F1F46BED800AA2F5C /* blink_macosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26EC334E1F46BED800AA2F5C /* blink_macosTests.swift */; };
+		26EC335A1F46BED800AA2F5C /* blink_macosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26EC33591F46BED800AA2F5C /* blink_macosUITests.swift */; };
+		26EC33691F46BF2400AA2F5C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26EC33671F46BF2400AA2F5C /* main.swift */; };
+		26EC336A1F46BF2400AA2F5C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26EC33681F46BF2400AA2F5C /* MainViewController.swift */; };
+		26EC336C1F46BF2D00AA2F5C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 26EC336B1F46BF2D00AA2F5C /* Info.plist */; };
+		26EC336E1F46BF3400AA2F5C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26EC336D1F46BF3400AA2F5C /* AppDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		26EC334B1F46BED800AA2F5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26EC33331F46BED800AA2F5C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26EC333A1F46BED800AA2F5C;
+			remoteInfo = "blink-macos";
+		};
+		26EC33561F46BED800AA2F5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26EC33331F46BED800AA2F5C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26EC333A1F46BED800AA2F5C;
+			remoteInfo = "blink-macos";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		260513011F480E3C004C6BF2 /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginView.swift; path = "blink-macos/Views/LoginView.swift"; sourceTree = SOURCE_ROOT; };
+		260513021F480E3C004C6BF2 /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainView.swift; path = "blink-macos/Views/MainView.swift"; sourceTree = SOURCE_ROOT; };
+		26EC333B1F46BED800AA2F5C /* blink-macos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "blink-macos.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26EC334A1F46BED800AA2F5C /* blink-macosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "blink-macosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26EC334E1F46BED800AA2F5C /* blink_macosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = blink_macosTests.swift; sourceTree = "<group>"; };
+		26EC33501F46BED800AA2F5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26EC33551F46BED800AA2F5C /* blink-macosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "blink-macosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26EC33591F46BED800AA2F5C /* blink_macosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = blink_macosUITests.swift; sourceTree = "<group>"; };
+		26EC335B1F46BED800AA2F5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26EC33671F46BF2400AA2F5C /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		26EC33681F46BF2400AA2F5C /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		26EC336B1F46BF2D00AA2F5C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26EC336D1F46BF3400AA2F5C /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26EC33381F46BED800AA2F5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26EC33471F46BED800AA2F5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26EC33521F46BED800AA2F5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26EC33321F46BED800AA2F5C = {
+			isa = PBXGroup;
+			children = (
+				26EC333D1F46BED800AA2F5C /* blink-macos */,
+				26EC334D1F46BED800AA2F5C /* blink-macosTests */,
+				26EC33581F46BED800AA2F5C /* blink-macosUITests */,
+				26EC333C1F46BED800AA2F5C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		26EC333C1F46BED800AA2F5C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26EC333B1F46BED800AA2F5C /* blink-macos.app */,
+				26EC334A1F46BED800AA2F5C /* blink-macosTests.xctest */,
+				26EC33551F46BED800AA2F5C /* blink-macosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26EC333D1F46BED800AA2F5C /* blink-macos */ = {
+			isa = PBXGroup;
+			children = (
+				26EC33721F46BFA000AA2F5C /* Views */,
+				26EC336B1F46BF2D00AA2F5C /* Info.plist */,
+				26EC33671F46BF2400AA2F5C /* main.swift */,
+				26EC336D1F46BF3400AA2F5C /* AppDelegate.swift */,
+				26EC33681F46BF2400AA2F5C /* MainViewController.swift */,
+			);
+			path = "blink-macos";
+			sourceTree = "<group>";
+		};
+		26EC334D1F46BED800AA2F5C /* blink-macosTests */ = {
+			isa = PBXGroup;
+			children = (
+				26EC334E1F46BED800AA2F5C /* blink_macosTests.swift */,
+				26EC33501F46BED800AA2F5C /* Info.plist */,
+			);
+			path = "blink-macosTests";
+			sourceTree = "<group>";
+		};
+		26EC33581F46BED800AA2F5C /* blink-macosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				26EC33591F46BED800AA2F5C /* blink_macosUITests.swift */,
+				26EC335B1F46BED800AA2F5C /* Info.plist */,
+			);
+			path = "blink-macosUITests";
+			sourceTree = "<group>";
+		};
+		26EC33721F46BFA000AA2F5C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				260513011F480E3C004C6BF2 /* LoginView.swift */,
+				260513021F480E3C004C6BF2 /* MainView.swift */,
+			);
+			name = Views;
+			path = "../../../blink-test/blink-test";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26EC333A1F46BED800AA2F5C /* blink-macos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26EC335E1F46BED800AA2F5C /* Build configuration list for PBXNativeTarget "blink-macos" */;
+			buildPhases = (
+				26EC33371F46BED800AA2F5C /* Sources */,
+				26EC33381F46BED800AA2F5C /* Frameworks */,
+				26EC33391F46BED800AA2F5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "blink-macos";
+			productName = "blink-macos";
+			productReference = 26EC333B1F46BED800AA2F5C /* blink-macos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		26EC33491F46BED800AA2F5C /* blink-macosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26EC33611F46BED800AA2F5C /* Build configuration list for PBXNativeTarget "blink-macosTests" */;
+			buildPhases = (
+				26EC33461F46BED800AA2F5C /* Sources */,
+				26EC33471F46BED800AA2F5C /* Frameworks */,
+				26EC33481F46BED800AA2F5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26EC334C1F46BED800AA2F5C /* PBXTargetDependency */,
+			);
+			name = "blink-macosTests";
+			productName = "blink-macosTests";
+			productReference = 26EC334A1F46BED800AA2F5C /* blink-macosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		26EC33541F46BED800AA2F5C /* blink-macosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26EC33641F46BED800AA2F5C /* Build configuration list for PBXNativeTarget "blink-macosUITests" */;
+			buildPhases = (
+				26EC33511F46BED800AA2F5C /* Sources */,
+				26EC33521F46BED800AA2F5C /* Frameworks */,
+				26EC33531F46BED800AA2F5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26EC33571F46BED800AA2F5C /* PBXTargetDependency */,
+			);
+			name = "blink-macosUITests";
+			productName = "blink-macosUITests";
+			productReference = 26EC33551F46BED800AA2F5C /* blink-macosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26EC33331F46BED800AA2F5C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Chris Sano";
+				TargetAttributes = {
+					26EC333A1F46BED800AA2F5C = {
+						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+					26EC33491F46BED800AA2F5C = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 26EC333A1F46BED800AA2F5C;
+					};
+					26EC33541F46BED800AA2F5C = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 26EC333A1F46BED800AA2F5C;
+					};
+				};
+			};
+			buildConfigurationList = 26EC33361F46BED800AA2F5C /* Build configuration list for PBXProject "blink-macos" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 26EC33321F46BED800AA2F5C;
+			productRefGroup = 26EC333C1F46BED800AA2F5C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26EC333A1F46BED800AA2F5C /* blink-macos */,
+				26EC33491F46BED800AA2F5C /* blink-macosTests */,
+				26EC33541F46BED800AA2F5C /* blink-macosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26EC33391F46BED800AA2F5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26EC336C1F46BF2D00AA2F5C /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26EC33481F46BED800AA2F5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26EC33531F46BED800AA2F5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26EC33371F46BED800AA2F5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26EC336E1F46BF3400AA2F5C /* AppDelegate.swift in Sources */,
+				26EC33691F46BF2400AA2F5C /* main.swift in Sources */,
+				260513031F480E3C004C6BF2 /* LoginView.swift in Sources */,
+				260513041F480E3C004C6BF2 /* MainView.swift in Sources */,
+				26EC336A1F46BF2400AA2F5C /* MainViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26EC33461F46BED800AA2F5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26EC334F1F46BED800AA2F5C /* blink_macosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26EC33511F46BED800AA2F5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26EC335A1F46BED800AA2F5C /* blink_macosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		26EC334C1F46BED800AA2F5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26EC333A1F46BED800AA2F5C /* blink-macos */;
+			targetProxy = 26EC334B1F46BED800AA2F5C /* PBXContainerItemProxy */;
+		};
+		26EC33571F46BED800AA2F5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26EC333A1F46BED800AA2F5C /* blink-macos */;
+			targetProxy = 26EC33561F46BED800AA2F5C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		26EC335C1F46BED800AA2F5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		26EC335D1F46BED800AA2F5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		26EC335F1F46BED800AA2F5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "blink-macos/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chrissano.blink-macos";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		26EC33601F46BED800AA2F5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "blink-macos/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chrissano.blink-macos";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		26EC33621F46BED800AA2F5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "blink-macosTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chrissano.blink-macosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/blink-macos.app/Contents/MacOS/blink-macos";
+			};
+			name = Debug;
+		};
+		26EC33631F46BED800AA2F5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "blink-macosTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chrissano.blink-macosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/blink-macos.app/Contents/MacOS/blink-macos";
+			};
+			name = Release;
+		};
+		26EC33651F46BED800AA2F5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "blink-macosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chrissano.blink-macosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "blink-macos";
+			};
+			name = Debug;
+		};
+		26EC33661F46BED800AA2F5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "blink-macosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chrissano.blink-macosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "blink-macos";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26EC33361F46BED800AA2F5C /* Build configuration list for PBXProject "blink-macos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26EC335C1F46BED800AA2F5C /* Debug */,
+				26EC335D1F46BED800AA2F5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26EC335E1F46BED800AA2F5C /* Build configuration list for PBXNativeTarget "blink-macos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26EC335F1F46BED800AA2F5C /* Debug */,
+				26EC33601F46BED800AA2F5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26EC33611F46BED800AA2F5C /* Build configuration list for PBXNativeTarget "blink-macosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26EC33621F46BED800AA2F5C /* Debug */,
+				26EC33631F46BED800AA2F5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26EC33641F46BED800AA2F5C /* Build configuration list for PBXNativeTarget "blink-macosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26EC33651F46BED800AA2F5C /* Debug */,
+				26EC33661F46BED800AA2F5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 26EC33331F46BED800AA2F5C /* Project object */;
+}
