@@ -6,9 +6,6 @@ class MainWindowController: NSWindowController {
 
     override init(window: NSWindow?) {
         super.init(window: window)
-        
-        if let window = window as? BlinkOsXMainWindow {
-        }
     }
     
     required init?(coder: NSCoder) {
