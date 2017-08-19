@@ -8,14 +8,6 @@ class MainWindowController: NSWindowController {
         super.init(window: window)
         
         if let window = window as? BlinkOsXMainWindow {
-            window.setContentSize(NSSize(width:600, height:200))
-            window.styleMask = [.closable, .titled, .miniaturizable, .resizable]
-            
-            window.level    = 0
-            window.isOpaque   = false
-            window.title    = "Blink"
-//            window.contentViewController = MainViewController(loginService: LoginService())
-            window.makeKeyAndOrderFront(window)
         }
     }
     
