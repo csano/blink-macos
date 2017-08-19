@@ -1,0 +1,3 @@
+[submodule "blink-api"]
+	path = blink-api
+	url = https://github.com/csano/blink-api-swift
