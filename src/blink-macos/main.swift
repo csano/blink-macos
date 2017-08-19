@@ -35,7 +35,6 @@ class BlinkOsXMainWindow: NSWindow, NSWindowDelegate {
         super.init(contentRect: contentRect, styleMask: style, backing: bufferingType, defer: flag)
         
         self.delegate = self
-        
         self.title    = "Blink"
         //sewindow.contentViewController = MainViewController(loginService: LoginService())
         self.makeKeyAndOrderFront(self)
@@ -57,13 +56,10 @@ class BlinkOsXApp: NSApplication {
         let instance = super.shared() as! BlinkOsXApp
         instance.delegate = appDelegate
 
-        
         return instance
     }
 }
 
 if #available(OSX 10.11, *)  {
-    print("Running")
     BlinkOsXApp.shared().run()
-//    app.run()
 }
