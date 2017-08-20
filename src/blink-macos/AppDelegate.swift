@@ -2,7 +2,7 @@
 import Cocoa
 import blinkapi
 
-public class BlinkOsXAppDelegate: NSObject, NSApplicationDelegate {
+public class AppDelegate: NSObject, NSApplicationDelegate {
     
     internal var window: NSWindow? = BlinkOsXMainWindow(loginService: LoginService())
     

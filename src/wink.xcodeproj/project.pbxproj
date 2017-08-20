@@ -10,9 +10,9 @@
 		260513031F480E3C004C6BF2 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260513011F480E3C004C6BF2 /* LoginView.swift */; };
 		260513041F480E3C004C6BF2 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260513021F480E3C004C6BF2 /* MainView.swift */; };
 		26AE42D81F482A680089284D /* SystemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AE42D71F482A680089284D /* SystemsView.swift */; };
-		26AE42DB1F48C4A40089284D /* BlinkOsXApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AE42DA1F48C4A40089284D /* BlinkOsXApp.swift */; };
-		26AE42DD1F48C6320089284D /* BlinkOsXMainWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AE42DC1F48C6320089284D /* BlinkOsXMainWindow.swift */; };
-		26AE42DF1F48C6770089284D /* BlinkOsXAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AE42DE1F48C6770089284D /* BlinkOsXAppDelegate.swift */; };
+		26AE42DB1F48C4A40089284D /* WinkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AE42DA1F48C4A40089284D /* WinkApp.swift */; };
+		26AE42DD1F48C6320089284D /* MainWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AE42DC1F48C6320089284D /* MainWindow.swift */; };
+		26AE42DF1F48C6770089284D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AE42DE1F48C6770089284D /* AppDelegate.swift */; };
 		26EC334F1F46BED800AA2F5C /* blink_macosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26EC334E1F46BED800AA2F5C /* blink_macosTests.swift */; };
 		26EC335A1F46BED800AA2F5C /* blink_macosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26EC33591F46BED800AA2F5C /* blink_macosUITests.swift */; };
 		26EC33691F46BF2400AA2F5C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26EC33671F46BF2400AA2F5C /* main.swift */; };
@@ -41,14 +41,14 @@
 		260513011F480E3C004C6BF2 /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginView.swift; path = "blink-macos/Views/LoginView.swift"; sourceTree = SOURCE_ROOT; };
 		260513021F480E3C004C6BF2 /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainView.swift; path = "blink-macos/Views/MainView.swift"; sourceTree = SOURCE_ROOT; };
 		26AE42D71F482A680089284D /* SystemsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SystemsView.swift; sourceTree = "<group>"; };
-		26AE42DA1F48C4A40089284D /* BlinkOsXApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlinkOsXApp.swift; sourceTree = "<group>"; };
-		26AE42DC1F48C6320089284D /* BlinkOsXMainWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlinkOsXMainWindow.swift; sourceTree = "<group>"; };
-		26AE42DE1F48C6770089284D /* BlinkOsXAppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlinkOsXAppDelegate.swift; sourceTree = "<group>"; };
-		26EC333B1F46BED800AA2F5C /* blink-macos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "blink-macos.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		26EC334A1F46BED800AA2F5C /* blink-macosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "blink-macosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26AE42DA1F48C4A40089284D /* WinkApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WinkApp.swift; sourceTree = "<group>"; };
+		26AE42DC1F48C6320089284D /* MainWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainWindow.swift; sourceTree = "<group>"; };
+		26AE42DE1F48C6770089284D /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		26EC333B1F46BED800AA2F5C /* wink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wink.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		26EC334A1F46BED800AA2F5C /* winkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = winkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		26EC334E1F46BED800AA2F5C /* blink_macosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = blink_macosTests.swift; sourceTree = "<group>"; };
 		26EC33501F46BED800AA2F5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		26EC33551F46BED800AA2F5C /* blink-macosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "blink-macosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26EC33551F46BED800AA2F5C /* winkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = winkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		26EC33591F46BED800AA2F5C /* blink_macosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = blink_macosUITests.swift; sourceTree = "<group>"; };
 		26EC335B1F46BED800AA2F5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		26EC33671F46BF2400AA2F5C /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -102,9 +102,9 @@
 		26EC333C1F46BED800AA2F5C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				26EC333B1F46BED800AA2F5C /* blink-macos.app */,
-				26EC334A1F46BED800AA2F5C /* blink-macosTests.xctest */,
-				26EC33551F46BED800AA2F5C /* blink-macosUITests.xctest */,
+				26EC333B1F46BED800AA2F5C /* wink.app */,
+				26EC334A1F46BED800AA2F5C /* winkTests.xctest */,
+				26EC33551F46BED800AA2F5C /* winkUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -116,9 +116,9 @@
 				26EC33721F46BFA000AA2F5C /* Views */,
 				26EC336B1F46BF2D00AA2F5C /* Info.plist */,
 				26EC33671F46BF2400AA2F5C /* main.swift */,
-				26AE42DA1F48C4A40089284D /* BlinkOsXApp.swift */,
-				26AE42DC1F48C6320089284D /* BlinkOsXMainWindow.swift */,
-				26AE42DE1F48C6770089284D /* BlinkOsXAppDelegate.swift */,
+				26AE42DA1F48C4A40089284D /* WinkApp.swift */,
+				26AE42DC1F48C6320089284D /* MainWindow.swift */,
+				26AE42DE1F48C6770089284D /* AppDelegate.swift */,
 			);
 			path = "blink-macos";
 			sourceTree = "<group>";
@@ -155,9 +155,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		26EC333A1F46BED800AA2F5C /* blink-macos */ = {
+		26EC333A1F46BED800AA2F5C /* wink */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 26EC335E1F46BED800AA2F5C /* Build configuration list for PBXNativeTarget "blink-macos" */;
+			buildConfigurationList = 26EC335E1F46BED800AA2F5C /* Build configuration list for PBXNativeTarget "wink" */;
 			buildPhases = (
 				26EC33371F46BED800AA2F5C /* Sources */,
 				26EC33381F46BED800AA2F5C /* Frameworks */,
@@ -167,14 +167,14 @@
 			);
 			dependencies = (
 			);
-			name = "blink-macos";
+			name = wink;
 			productName = "blink-macos";
-			productReference = 26EC333B1F46BED800AA2F5C /* blink-macos.app */;
+			productReference = 26EC333B1F46BED800AA2F5C /* wink.app */;
 			productType = "com.apple.product-type.application";
 		};
-		26EC33491F46BED800AA2F5C /* blink-macosTests */ = {
+		26EC33491F46BED800AA2F5C /* winkTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 26EC33611F46BED800AA2F5C /* Build configuration list for PBXNativeTarget "blink-macosTests" */;
+			buildConfigurationList = 26EC33611F46BED800AA2F5C /* Build configuration list for PBXNativeTarget "winkTests" */;
 			buildPhases = (
 				26EC33461F46BED800AA2F5C /* Sources */,
 				26EC33471F46BED800AA2F5C /* Frameworks */,
@@ -185,14 +185,14 @@
 			dependencies = (
 				26EC334C1F46BED800AA2F5C /* PBXTargetDependency */,
 			);
-			name = "blink-macosTests";
+			name = winkTests;
 			productName = "blink-macosTests";
-			productReference = 26EC334A1F46BED800AA2F5C /* blink-macosTests.xctest */;
+			productReference = 26EC334A1F46BED800AA2F5C /* winkTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		26EC33541F46BED800AA2F5C /* blink-macosUITests */ = {
+		26EC33541F46BED800AA2F5C /* winkUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 26EC33641F46BED800AA2F5C /* Build configuration list for PBXNativeTarget "blink-macosUITests" */;
+			buildConfigurationList = 26EC33641F46BED800AA2F5C /* Build configuration list for PBXNativeTarget "winkUITests" */;
 			buildPhases = (
 				26EC33511F46BED800AA2F5C /* Sources */,
 				26EC33521F46BED800AA2F5C /* Frameworks */,
@@ -203,9 +203,9 @@
 			dependencies = (
 				26EC33571F46BED800AA2F5C /* PBXTargetDependency */,
 			);
-			name = "blink-macosUITests";
+			name = winkUITests;
 			productName = "blink-macosUITests";
-			productReference = 26EC33551F46BED800AA2F5C /* blink-macosUITests.xctest */;
+			productReference = 26EC33551F46BED800AA2F5C /* winkUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -235,7 +235,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 26EC33361F46BED800AA2F5C /* Build configuration list for PBXProject "blink-macos" */;
+			buildConfigurationList = 26EC33361F46BED800AA2F5C /* Build configuration list for PBXProject "wink" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -248,9 +248,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				26EC333A1F46BED800AA2F5C /* blink-macos */,
-				26EC33491F46BED800AA2F5C /* blink-macosTests */,
-				26EC33541F46BED800AA2F5C /* blink-macosUITests */,
+				26EC333A1F46BED800AA2F5C /* wink */,
+				26EC33491F46BED800AA2F5C /* winkTests */,
+				26EC33541F46BED800AA2F5C /* winkUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -285,10 +285,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26AE42DB1F48C4A40089284D /* BlinkOsXApp.swift in Sources */,
+				26AE42DB1F48C4A40089284D /* WinkApp.swift in Sources */,
 				26EC33691F46BF2400AA2F5C /* main.swift in Sources */,
-				26AE42DF1F48C6770089284D /* BlinkOsXAppDelegate.swift in Sources */,
-				26AE42DD1F48C6320089284D /* BlinkOsXMainWindow.swift in Sources */,
+				26AE42DF1F48C6770089284D /* AppDelegate.swift in Sources */,
+				26AE42DD1F48C6320089284D /* MainWindow.swift in Sources */,
 				260513031F480E3C004C6BF2 /* LoginView.swift in Sources */,
 				260513041F480E3C004C6BF2 /* MainView.swift in Sources */,
 				26EC336A1F46BF2400AA2F5C /* MainViewController.swift in Sources */,
@@ -317,12 +317,12 @@
 /* Begin PBXTargetDependency section */
 		26EC334C1F46BED800AA2F5C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 26EC333A1F46BED800AA2F5C /* blink-macos */;
+			target = 26EC333A1F46BED800AA2F5C /* wink */;
 			targetProxy = 26EC334B1F46BED800AA2F5C /* PBXContainerItemProxy */;
 		};
 		26EC33571F46BED800AA2F5C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 26EC333A1F46BED800AA2F5C /* blink-macos */;
+			target = 26EC333A1F46BED800AA2F5C /* wink */;
 			targetProxy = 26EC33561F46BED800AA2F5C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -458,7 +458,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.chrissano.blink-macosTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/blink-macos.app/Contents/MacOS/blink-macos";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wink.app/Contents/MacOS/wink";
 			};
 			name = Debug;
 		};
@@ -473,7 +473,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.chrissano.blink-macosTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/blink-macos.app/Contents/MacOS/blink-macos";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wink.app/Contents/MacOS/wink";
 			};
 			name = Release;
 		};
@@ -508,7 +508,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		26EC33361F46BED800AA2F5C /* Build configuration list for PBXProject "blink-macos" */ = {
+		26EC33361F46BED800AA2F5C /* Build configuration list for PBXProject "wink" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				26EC335C1F46BED800AA2F5C /* Debug */,
@@ -517,7 +517,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		26EC335E1F46BED800AA2F5C /* Build configuration list for PBXNativeTarget "blink-macos" */ = {
+		26EC335E1F46BED800AA2F5C /* Build configuration list for PBXNativeTarget "wink" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				26EC335F1F46BED800AA2F5C /* Debug */,
@@ -526,7 +526,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		26EC33611F46BED800AA2F5C /* Build configuration list for PBXNativeTarget "blink-macosTests" */ = {
+		26EC33611F46BED800AA2F5C /* Build configuration list for PBXNativeTarget "winkTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				26EC33621F46BED800AA2F5C /* Debug */,
@@ -535,7 +535,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		26EC33641F46BED800AA2F5C /* Build configuration list for PBXNativeTarget "blink-macosUITests" */ = {
+		26EC33641F46BED800AA2F5C /* Build configuration list for PBXNativeTarget "winkUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				26EC33651F46BED800AA2F5C /* Debug */,

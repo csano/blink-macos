@@ -2,9 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:blink-api/src/blinkapi/blinkapi.xcodeproj">
+      location = "group:/Users/csano/Projects/blink/blink-macos/src/blink-api/src/blinkapi/blinkapi.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:blink-macos.xcodeproj">
+      location = "group:/Users/csano/Projects/blink/blink-macos/src/wink.xcodeproj">
    </FileRef>
 </Workspace>

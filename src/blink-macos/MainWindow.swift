@@ -17,12 +17,12 @@ class BlinkOsXMainWindow: NSWindow, NSWindowDelegate {
         
         self.delegate = self
         self.title    = "Blink"
-        //sewindow.contentViewController = MainViewController(loginService: LoginService())
+        self.contentViewController = MainViewController(loginService: LoginService())
         self.makeKeyAndOrderFront(self)
         
     }
     
     public func windowWillClose(_ notification: Notification) {
-        BlinkOsXApp.shared().terminate(0)
+        WinkApp.shared().terminate(0)
     }
 }
