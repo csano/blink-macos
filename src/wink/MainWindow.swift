@@ -16,7 +16,7 @@ class BlinkOsXMainWindow: NSWindow, NSWindowDelegate {
         super.init(contentRect: contentRect, styleMask: style, backing: bufferingType, defer: flag)
         
         self.delegate = self
-        self.title    = "Blink"
+        self.title    = "Wink"
         self.contentViewController = MainViewController(loginService: LoginService())
         self.makeKeyAndOrderFront(self)
         
