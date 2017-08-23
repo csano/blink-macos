@@ -12,6 +12,7 @@
 		26AE42DF1F48C6770089284D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AE42DE1F48C6770089284D /* AppDelegate.swift */; };
 		26AE42E31F4964E20089284D /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AE42E11F4964E20089284D /* MainView.swift */; };
 		26AE42E41F4964E20089284D /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AE42E21F4964E20089284D /* LoginView.swift */; };
+		26AE42E61F4AA9F10089284D /* SystemButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AE42E51F4AA9F10089284D /* SystemButton.swift */; };
 		26EC33691F46BF2400AA2F5C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26EC33671F46BF2400AA2F5C /* main.swift */; };
 		26EC336A1F46BF2400AA2F5C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26EC33681F46BF2400AA2F5C /* MainViewController.swift */; };
 		26EC336C1F46BF2D00AA2F5C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 26EC336B1F46BF2D00AA2F5C /* Info.plist */; };
@@ -41,6 +42,7 @@
 		26AE42DE1F48C6770089284D /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		26AE42E11F4964E20089284D /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainView.swift; path = Views/MainView.swift; sourceTree = "<group>"; };
 		26AE42E21F4964E20089284D /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginView.swift; path = Views/LoginView.swift; sourceTree = "<group>"; };
+		26AE42E51F4AA9F10089284D /* SystemButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SystemButton.swift; path = Views/SystemButton.swift; sourceTree = "<group>"; };
 		26EC333B1F46BED800AA2F5C /* wink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wink.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		26EC334A1F46BED800AA2F5C /* winkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = winkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		26EC33501F46BED800AA2F5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 				26AE42E11F4964E20089284D /* MainView.swift */,
 				26AE42E21F4964E20089284D /* LoginView.swift */,
 				5A8D7D0E2A8DC5E10AFA7D41 /* SystemsView.swift */,
+				26AE42E51F4AA9F10089284D /* SystemButton.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -279,6 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				26AE42DB1F48C4A40089284D /* WinkApp.swift in Sources */,
+				26AE42E61F4AA9F10089284D /* SystemButton.swift in Sources */,
 				26AE42E31F4964E20089284D /* MainView.swift in Sources */,
 				26EC33691F46BF2400AA2F5C /* main.swift in Sources */,
 				26AE42DF1F48C6770089284D /* AppDelegate.swift in Sources */,
