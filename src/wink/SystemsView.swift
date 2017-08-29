@@ -15,7 +15,7 @@ public class SystemsView: NSView {
         systemButtons.append(btn)
         
         btn.translatesAutoresizingMaskIntoConstraints = false
-        btn.topAnchor.constraint(equalTo: self.topAnchor, constant: 0).isActive = true
+        btn.topAnchor.constraint(equalTo: self.topAnchor, constant: 1).isActive = true
         btn.leftAnchor.constraint(equalTo: self.leftAnchor).isActive = true
         btn.rightAnchor.constraint(equalTo: self.rightAnchor).isActive = true
 //        iconBackground.centerYAnchor.constraint(equalTo: self.centerYAnchor, constant: -5).isActive = true

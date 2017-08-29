@@ -22,6 +22,36 @@ public class SystemButton: NSView {
         iconBackground.layer?.cornerRadius = 5.0
         self.addSubview(iconBackground)
         
+//        var mask = CAShapeLayer()
+//        mask.path = path
+//        
+//        self.layer?.mask = mask
+    }
+    
+    override public func draw(_ dirtyRect: NSRect) {
+        super.draw(dirtyRect)
+        
+        let path = NSBezierPath()
+
+        let radius: CGFloat = 20.0
+        let leftOffset: CGFloat = 1
+        
+        path.move(to: NSPoint(x:5, y:0))
+        path.line(to: NSPoint(x:self.frame.size.width, y:0))
+        path.line(to: NSPoint(x:self.frame.size.width, y:self.frame.size.height))
+        path.line(to: NSPoint(x:radius+leftOffset, y:self.frame.size.height))
+        let topLeftCorner = NSPoint(x: leftOffset, y: self.frame.size.height)
+        let bottomLeftCorner = NSPoint(x: leftOffset, y: 0)
+        
+        path.curve(to: NSPoint(x:leftOffset, y:self.frame.size.height - radius), controlPoint1: topLeftCorner, controlPoint2: topLeftCorner)
+        path.line(to: NSPoint(x:leftOffset, y: radius))
+        path.curve(to: NSPoint(x:leftOffset+radius, y:0), controlPoint1: bottomLeftCorner, controlPoint2: bottomLeftCorner)
+
+        let layer = CAShapeLayer()
+        layer.path = path.CGPath
+
+        self.layer?.mask = layer
+
     }
     
     override public func updateConstraints() {

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		260304C01F5546BA00B95419 /* NSBezierPath+CGPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260304BF1F5546BA00B95419 /* NSBezierPath+CGPath.swift */; };
 		26AE42DB1F48C4A40089284D /* WinkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AE42DA1F48C4A40089284D /* WinkApp.swift */; };
 		26AE42DD1F48C6320089284D /* MainWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AE42DC1F48C6320089284D /* MainWindow.swift */; };
 		26AE42DF1F48C6770089284D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AE42DE1F48C6770089284D /* AppDelegate.swift */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		260304BF1F5546BA00B95419 /* NSBezierPath+CGPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "NSBezierPath+CGPath.swift"; path = "Extensions/NSBezierPath+CGPath.swift"; sourceTree = "<group>"; };
 		26AE42DA1F48C4A40089284D /* WinkApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WinkApp.swift; sourceTree = "<group>"; };
 		26AE42DC1F48C6320089284D /* MainWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainWindow.swift; sourceTree = "<group>"; };
 		26AE42DE1F48C6770089284D /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +81,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		260304BE1F55467400B95419 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				260304BF1F5546BA00B95419 /* NSBezierPath+CGPath.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
 		26AE42D91F48C33F0089284D /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -121,6 +131,7 @@
 		26EC333D1F46BED800AA2F5C /* wink */ = {
 			isa = PBXGroup;
 			children = (
+				260304BE1F55467400B95419 /* Extensions */,
 				26AE42E01F4964D60089284D /* Views */,
 				26AE42D91F48C33F0089284D /* Controllers */,
 				26EC336B1F46BF2D00AA2F5C /* Info.plist */,
@@ -282,6 +293,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				26AE42DB1F48C4A40089284D /* WinkApp.swift in Sources */,
+				260304C01F5546BA00B95419 /* NSBezierPath+CGPath.swift in Sources */,
 				26AE42E61F4AA9F10089284D /* SystemButton.swift in Sources */,
 				26AE42E31F4964E20089284D /* MainView.swift in Sources */,
 				26EC33691F46BF2400AA2F5C /* main.swift in Sources */,
